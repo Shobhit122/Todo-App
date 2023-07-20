@@ -16,9 +16,9 @@ public class TodoService {
     private static int count=0;
 
     static{
-        todos.add(new Todo(++count,"molu","Learn Snake Charming", LocalDate.now().plusYears(1), false));
-        todos.add(new Todo(++count,"molu","Learn Dancing with snakes", LocalDate.now().plusMonths(6), false));
-        todos.add(new Todo(++count,"molu","Learn thumakna", LocalDate.now().plusMonths(2), false));
+        todos.add(new Todo(++count,"molu","Learn Dancing", LocalDate.now().plusYears(1), false));
+        todos.add(new Todo(++count,"molu","Water the plants", LocalDate.now().plusDays(1), false));
+        todos.add(new Todo(++count,"molu","Learn Cooking", LocalDate.now().plusMonths(2), false));
     }
 
     public List<Todo> findByUsername(String username) {
